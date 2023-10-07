@@ -1,0 +1,25 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: red;
+    border-color: rgb(237, 3, 3);
+}
+
+canvas {
+    animation-name: Effect;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Effect {
+    from {
+        box-shadow: 1px 1px 38px red;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px yellow;
+    }
+
+}
